@@ -1,0 +1,12 @@
+{
+  "name": "trazasinie",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Partes de accidente online con croquis interactivo, multi-empresa",
+  "scripts": {
+    "instalar": "npm --prefix backend install && npm --prefix frontend install",
+    "db:crear": "npm --prefix backend run db:crear",
+    "db:ejemplo": "npm --prefix backend run db:ejemplo",
+    "dev": "node scripts/dev.js"
+  }
+}
