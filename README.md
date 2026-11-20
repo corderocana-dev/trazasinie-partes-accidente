@@ -83,8 +83,8 @@ Además:
 **Requisitos:** [Node.js](https://nodejs.org/) 18+ y [PostgreSQL](https://www.postgresql.org/) 14+.
 
 ```bash
-git clone https://github.com/corderocana-dev/trazasinie.git
-cd trazasinie
+git clone https://github.com/corderocana-dev/trazasinie-partes-accidente.git
+cd trazasinie-partes-accidente
 npm run instalar
 ```
 
@@ -144,7 +144,7 @@ El esquema completo está en [`schema.sql`](schema.sql). Se puede ejecutar varia
 ## 📁 Estructura
 
 ```
-trazasinie/
+trazasinie-partes-accidente/
 ├── schema.sql                  # Esquema de PostgreSQL
 ├── scripts/dev.js              # Arranca backend y frontend con un solo comando
 ├── backend/
